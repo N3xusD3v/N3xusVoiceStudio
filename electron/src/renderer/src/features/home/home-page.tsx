@@ -1,7 +1,4 @@
 import { HomeFeatureIcon } from './home-feature-icon';
-import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/ui/tooltip';
-import { getBridge } from '@/components/bridge';
-import { runRendererTask } from '@/lib/global-error-recovery';
 import { HomeContributors } from './home-contributors';
 import './home-page.css';
 import { WorkspaceHeader } from '@/components/app-shell/workspace-header';
@@ -197,7 +194,7 @@ export function HomePage() {
       </WorkspaceHeader>
       <div className="min-h-0 flex-1 overflow-y-auto">
         <div className="home-content mx-auto w-full max-w-6xl">
-          <section aria-labelledby="home-new-projects">
+          <section aria-label={t('app.name')}>
             <div className="home-heading relative isolate overflow-hidden">
               <img
                 src={brandArtwork}
@@ -206,42 +203,6 @@ export function HomePage() {
                 className="pointer-events-none absolute inset-y-0 right-0 -z-10 h-full w-1/2 object-cover object-right opacity-25 [mask-image:linear-gradient(90deg,transparent,black)]"
               />
               <div className="home-heading-row">
-                <div className="home-heading-copy">
-                  <h2
-                    id="home-new-projects"
-                    className="flex flex-wrap items-center gap-x-3 gap-y-2 text-3xl font-semibold tracking-[-0.035em]"
-                  >
-                    <Tooltip>
-                      <TooltipTrigger
-                        render={
-                          <a
-                            href="https://voicestudio.sh"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="rounded-md transition-colors hover:text-primary focus-visible:outline-2 focus-visible:outline-ring"
-                            onClick={(event) => {
-                              const browser = getBridge()?.browser;
-                              if (!browser) return;
-                              event.preventDefault();
-                              event.currentTarget.focus();
-                              runRendererTask('Preview official website', () =>
-                                browser.open('https://voicestudio.sh'),
-                              );
-                            }}
-                          />
-                        }
-                      >
-                        {t('homeUi.title')}
-                      </TooltipTrigger>
-                      <TooltipContent surface="theme" side="bottom">
-                        {t('siteBrowser.preview')}
-                      </TooltipContent>
-                    </Tooltip>
-                  </h2>
-                  <p className="mt-3 max-w-[80ch] text-sm leading-relaxed text-foreground/65">
-                    {t('homeUi.subtitle')}
-                  </p>
-                </div>
                 <HomeContributors />
               </div>
             </div>
