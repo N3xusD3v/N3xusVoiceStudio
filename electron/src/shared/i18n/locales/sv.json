@@ -56,9 +56,9 @@
     "no_harness": "Installera och logga in i Codex, Claude Code, OpenCode eller Pi för att ansluta en agent."
   },
   "repairAgent": {
-    "title": "Fråga VoiceStudio Agent",
+    "title": "Fråga N3xusVoice Agent",
     "notInstalled": "Inte installerad",
-    "noSource": "Öppna en skrivbar VoiceStudio källcheck för att låta en agent reparera den.",
+    "noSource": "Öppna en skrivbar N3xusVoice källcheck för att låta en agent reparera den.",
     "ready": "Redo",
     "placeholder": "Vad gick fel? Lägg till steg, synliga fel eller förväntat beteende.",
     "diagnose": "Diagnostisera",
@@ -68,7 +68,7 @@
   },
   "siteBrowser": {
     "return_studio": "Tillbaka till studion",
-    "preview": "Förhandsvisa den officiella webbplatsen direkt i VoiceStudio",
+    "preview": "Förhandsvisa den officiella webbplatsen direkt i N3xusVoice",
     "open_in": "Öppna i webbläsare",
     "back": "Bakåt",
     "forward": "Framåt",
@@ -99,7 +99,7 @@
     "brand_by": "{{brand}} av",
     "all": "Alla",
     "allContributors": "Alla bidragsgivare",
-    "title": "VoiceStudio.sh Öppen källkod",
+    "title": "N3xusVoice Öppen källkod",
     "design": "Skapa en röst utifrån en beskrivning.",
     "dub": "Översätt och dubba ljud eller video.",
     "stories": "Skapa scener med flera röster.",
@@ -110,9 +110,9 @@
   },
   "longformPersistence": {
     "storage_unavailable_title": "Projekten kunde inte läsas in",
-    "storage_unavailable_body": "VoiceStudio kunde inte läsa det lokala projektlagret. Dina data har inte ändrats. Försök igen för att öppna dem säkert.",
+    "storage_unavailable_body": "N3xusVoice kunde inte läsa det lokala projektlagret. Dina data har inte ändrats. Försök igen för att öppna dem säkert.",
     "clear_projects": "Rensa sparade projekt",
-    "clear_confirm": "Detta tar permanent bort alla sparade Berättelse- och Ljudboksprojekt och alla osparade utkast så att VoiceStudio kan öppnas igen. Det går inte att ångra. Fortsätta?"
+    "clear_confirm": "Detta tar permanent bort alla sparade Berättelse- och Ljudboksprojekt och alla osparade utkast så att N3xusVoice kan öppnas igen. Det går inte att ångra. Fortsätta?"
   },
   "backendUnreachable": {
     "contact_recent": "Den svarade för {{ago}} sedan och slutade sedan svara, och ingen krasch registrerades — den kan alltså fortfarande vara igång men fast i ett tungt jobb som håller motorn upptagen.",
@@ -165,7 +165,7 @@
     "remote_backend_error_timeout": "Fjärrbackend svarade inte i tid.",
     "remote_backend_error_http": "Fjärrbackend returnerade HTTP {{status}}.",
     "remote_backend_error_wrong_port": "Det här verkar inte vara VoiceStudios HTTP API. Port 7443 är vanligtvis kontrollporten för fjärrworkern; prova port 3900.",
-    "openapi": "VoiceStudio API",
+    "openapi": "N3xusVoice API",
     "general": "Allmänt",
     "theme": "Tema",
     "language": "Språk",
@@ -205,7 +205,7 @@
     "llmp_test_ok": "ok — {{model}} · {{ms}} ms",
     "llmp_active_env_pin": "LLM-valet är låst av LLM_DEFAULT_PROVIDER eller OMNIVOICE_LLM_BACKEND.",
     "llmp_connect": "Anslut och aktivera",
-    "llmp_setup_hint": "Välj en leverantör, starta dess server eller lägg till en API-nyckel och anslut. VoiceStudio verifierar ett modellsvar innan LLM-funktioner aktiveras.",
+    "llmp_setup_hint": "Välj en leverantör, starta dess server eller lägg till en API-nyckel och anslut. N3xusVoice verifierar ett modellsvar innan LLM-funktioner aktiveras.",
     "llmp_disable": "Stäng av LLM",
     "llmp_optional_key": "API-nyckel (valfritt)",
     "llmp_err_config": "Fyll i leverantörens inställningar: bas-URL, modell och eventuell API-nyckel eller konto-ID.",
@@ -274,7 +274,7 @@
     "shortcut_register_failed": "Kunde inte registrera: {{message}}",
     "shortcut_reset": "Återställ till standard",
     "shortcut_reset_failed": "Återställning misslyckades: {{message}}",
-    "reset_longform_failed": "VoiceStudio kunde inte rensa de sparade projekten på ett säkert sätt. Dina projektdata ändrades inte; frigör lagringsutrymme eller starta om appen och försök igen.",
+    "reset_longform_failed": "N3xusVoice kunde inte rensa de sparade projekten på ett säkert sätt. Dina projektdata ändrades inte; frigör lagringsutrymme eller starta om appen och försök igen.",
     "cancel": "Avbryt",
     "hf_token_also_clear": "Radera även sparade tokenfiler för HuggingFace CLI",
     "hf_token_clear_btn": "Rensa token",
@@ -327,7 +327,7 @@
     "nav_style_desc": "Byt arbetsyta från en ikonrad längs fönsterkanten eller från flikar i namnlisten.",
     "nav_style_rail": "Sidopanel",
     "nav_style_tabs": "Flikar i namnlisten",
-    "storage_desc": "Där VoiceStudio förvarar dina data och utdata.",
+    "storage_desc": "Där N3xusVoice förvarar dina data och utdata.",
     "history_retention": "Genereringshistorik",
     "history_retention_desc": "Hur många tagningar som behålls innan de äldsta rensas.",
     "history_retention_help": "Efter varje generering tas de äldsta ostjärnmärkta tagningarna över gränsen bort tillsammans med sina ljudfiler. Stjärnmärkta tagningar behålls alltid. 0 = behåll allt.",
@@ -344,7 +344,7 @@
     "models_dir_effective": "Används nu",
     "models_dir_configured": "Konfigurerad",
     "models_dir_default": "Använder standard",
-    "models_dir_restart": "↻ Starta om VoiceStudio för att använda den nya platsen.",
+    "models_dir_restart": "↻ Starta om N3xusVoice för att använda den nya platsen.",
     "compute_device": "Beräkningsenhet",
     "compute_device_title": "Beräkningsenhet",
     "compute_device_desc": "Vilken enhet backend kör modeller på. Auto är rätt för nästan alla.",
@@ -369,12 +369,12 @@
     "generate_timeout_cpu": "CPU-budget",
     "generate_timeout_cpu_note": "Används när genereringen körs på CPU:n. När den väl sparats här styr detta värde alltid CPU-generering — oberoende av den accelererade budgeten ovan.",
     "generate_timeout_invalid": "Ange ett antal sekunder större än 0 och högst {{max}}.",
-    "generate_timeout_saved": "Sparat. Starta om VoiceStudio för att den nya budgeten ska gälla.",
+    "generate_timeout_saved": "Sparat. Starta om N3xusVoice för att den nya budgeten ska gälla.",
     "generate_timeout_shadowed_badge": "Åsidosatt externt",
-    "generate_timeout_shadowed_note": "En miljövariabel utanför VoiceStudio (skal, .env-fil eller container) anger just nu detta värde — värdet som sparats här ignoreras tills den variabeln tas bort.",
-    "generate_timeout_shadowed_toast": "Sparat, men en miljövariabel utanför VoiceStudio anger just nu detta värde — det kommer fortsätta användas tills den variabeln tas bort.",
+    "generate_timeout_shadowed_note": "En miljövariabel utanför N3xusVoice (skal, .env-fil eller container) anger just nu detta värde — värdet som sparats här ignoreras tills den variabeln tas bort.",
+    "generate_timeout_shadowed_toast": "Sparat, men en miljövariabel utanför N3xusVoice anger just nu detta värde — det kommer fortsätta användas tills den variabeln tas bort.",
     "hf_token_not_checked": "Inte testad",
-    "hf_source_app_label": "VoiceStudio (krypterad, rekommenderas)",
+    "hf_source_app_label": "N3xusVoice (krypterad, rekommenderas)",
     "hf_source_cli_label": "HuggingFace CLI",
     "hf_source_env_label": "Miljövariabel",
     "theme_auto": "Systemval",
@@ -389,7 +389,7 @@
     "llmp_cli_auth": "Åtkomst till CLI-kontot nekades. Kontrollera inloggning, prenumeration och vald modell."
   },
   "bootstrap": {
-    "title": "VoiceStudio",
+    "title": "N3xusVoice",
     "checking": "Kontrollerar miljö…",
     "downloading_uv": "Laddar ner uv (Python-pakethanterare)…",
     "creating_venv": "Skapar virtuell Python-miljö…",
@@ -426,7 +426,7 @@
     "hint_port": "Port 3900 används redan. Stäng andra VoiceStudio-instanser eller appar som använder porten.",
     "hint_silent_crash": "Backenden kraschade utan felmeddelande. \"Rensa & Försök igen\" löser ofta problem med en korrupt venv.",
     "hint_github_blocked": "Ditt nätverk kan blockera GitHub. Installera Python 3.11+ från python.org (lägg till i PATH) och starta om, eller sätt UV_PYTHON_INSTALL_MIRROR — se docs/install/troubleshooting.md.",
-    "hint_intel_mac": "Den här Macen har en Intel-processor och PyTorch levererar inte längre Intel-Mac-byggen — den lokala AI-backenden kan inte installeras, och att försöka igen ändrar inget. Du kan fortfarande koppla appen till en fjärrbackend på en annan dator (Inställningar → Delning → Fjärrbackend), eller köra VoiceStudio på en Apple Silicon-Mac, Windows eller Linux. Detaljer: docs/install/macos.md.",
+    "hint_intel_mac": "Den här Macen har en Intel-processor och PyTorch levererar inte längre Intel-Mac-byggen — den lokala AI-backenden kan inte installeras, och att försöka igen ändrar inget. Du kan fortfarande koppla appen till en fjärrbackend på en annan dator (Inställningar → Delning → Fjärrbackend), eller köra N3xusVoice på en Apple Silicon-Mac, Windows eller Linux. Detaljer: docs/install/macos.md.",
     "hint_default": "Prova \"Försök igen\" först. Misslyckas det igen bygger \"Rensa & Försök igen\" om miljön från grunden.",
     "hint_stuck": "Backend slutade inte starta. Från källan, kör `uv sync` först och se till att `uv` och Python är på din PATH, försök sedan igen. Kontrollera loggen nedan (eller Inställningar → Loggar → Backend) för den exakta stopppunkten.",
     "lines": "{{count}} rader"
@@ -723,7 +723,7 @@
     "downloading": "Laddar ned...",
     "check_updates": "Sök efter uppdateringar",
     "copy_diagnostics": "Kopiera diagnostik",
-    "github": "VoiceStudio på GitHub",
+    "github": "N3xusVoice på GitHub",
     "commercial_license": "Kommersiell licens",
     "update_channel": "Uppdateringskanal",
     "channel_stable": "Stabil",
@@ -762,9 +762,9 @@
     "watermark_failed": "Kunde inte ändra inställningen för vattenstämpeln."
   },
   "consent": {
-    "title": "Hjälpa till att förbättra VoiceStudio?",
+    "title": "Hjälpa till att förbättra N3xusVoice?",
     "desc": "Anonym användningsstatistik utan innehåll som hjälper oss att fixa buggar snabbare — helt valfri, avstängd som standard.",
-    "step_label": "Förbättra VoiceStudio",
+    "step_label": "Förbättra N3xusVoice",
     "body": "Anonym användningsstatistik utan innehåll: vilka motorer som används, hur lång tid genereringar tar och typen av fel. Aldrig din text, ditt ljud, dina filer eller något som identifierar dig. Inget skickas om du inte säger ja, och du kan ändra dig när som helst i Inställningar → Integritet.",
     "learn_more": "Vad skickas egentligen?",
     "yes": "Ja, dela anonym statistik",
@@ -772,7 +772,7 @@
     "dismiss": "Stäng (analys förblir av)"
   },
   "langPrompt": {
-    "offer": "VoiceStudio öppnades på {{language}}. Föredrar du engelska?",
+    "offer": "N3xusVoice öppnades på {{language}}. Föredrar du engelska?",
     "switch": "Byt till engelska",
     "keep": "Behåll {{language}}"
   },
@@ -882,7 +882,7 @@
   },
   "capture": {
     "desc": "Globala snabbtangenter fungerar bara i skrivbordsappen. Webbgränssnittet använder en genväg <1>Ctrl+Skift+Mellanslag</1> på sidan medan fönstret har fokus.",
-    "desc_detail": "Snabbtangenten fungerar över hela systemet medan VoiceStudio körs – den fokuserar fönstret och startar diktering. Undvik kombinationer som redan gjorts anspråk på av operativsystemet (på macOS är <1>⌘+Space</1> Spotlight och <2>⌘+⇧+Space</2> växlar ingångskällor). Om registreringen misslyckas, välj en annan kombination.",
+    "desc_detail": "Snabbtangenten fungerar över hela systemet medan N3xusVoice körs – den fokuserar fönstret och startar diktering. Undvik kombinationer som redan gjorts anspråk på av operativsystemet (på macOS är <1>⌘+Space</1> Spotlight och <2>⌘+⇧+Space</2> växlar ingångskällor). Om registreringen misslyckas, välj en annan kombination.",
     "active_shortcut": "Aktiv genväg",
     "new_shortcut": "Ny genväg",
     "press_key": "Tryck på en tangentkombination...",
@@ -900,8 +900,8 @@
     "no_speech": "Inget tal upptäckt",
     "mic_denied": "Mikrofonåtkomst nekad",
     "mic_denied_toast": "Mikrofonåtkomst nekad. {{hint}}",
-    "mic_hint_mac": "macOS: öppna Systeminställningar → Sekretess och säkerhet → Mikrofon och aktivera VoiceStudio.",
-    "mic_hint_windows": "Windows: öppna Inställningar → Sekretess och säkerhet → Mikrofon, aktivera 'Mikrofonåtkomst' och 'Låt skrivbordsappar komma åt din mikrofon' och tillåt sedan VoiceStudio.",
+    "mic_hint_mac": "macOS: öppna Systeminställningar → Sekretess och säkerhet → Mikrofon och aktivera N3xusVoice.",
+    "mic_hint_windows": "Windows: öppna Inställningar → Sekretess och säkerhet → Mikrofon, aktivera 'Mikrofonåtkomst' och 'Låt skrivbordsappar komma åt din mikrofon' och tillåt sedan N3xusVoice.",
     "mic_hint_linux": "Linux: kontrollera att din användare är i ljudgruppen och att WebView har mikrofonåtkomst.",
     "transcription_failed": "Transkription misslyckades: {{message}}",
     "mic_not_found": "Ingen mikrofon hittades. Anslut eller aktivera en mikrofon och försök igen.",
@@ -1000,7 +1000,7 @@
     "persona_include_ref_hint": "Inkludera det råa referensklippet. Av = dela endast en förhandsgranskning med vattenstämpel (rekommenderas).",
     "consent_title": "Röstägande",
     "consent_explain": "Spela in dig själv när du läser uttalandet nedan för att verifiera att detta är din egen röst. Verifiering kommer att krävas för agentfunktioner och gemenskapsdelning - aldrig för lokal syntes.",
-    "consent_statement": "Jag bekräftar att den här röstprofilen är min egen röst och jag samtycker till att VoiceStudio klonar den för mina vägnar.",
+    "consent_statement": "Jag bekräftar att den här röstprofilen är min egen röst och jag samtycker till att N3xusVoice klonar den för mina vägnar.",
     "consent_record": "Spela in samtyckesförklaring",
     "consent_stop": "Sluta spela in",
     "consent_saved": "Röstägande har verifierats",
@@ -1463,7 +1463,7 @@
     "watch_start_failed": "Kunde inte börja bevaka mappen — välj den igen för att försöka på nytt."
   },
   "gallery": {
-    "title": "VoiceStudio Galleri",
+    "title": "N3xusVoice Galleri",
     "download_hint": "Sök ovan för att ladda ner klipp",
     "saving": "Sparar...",
     "trim": "Trimma",
@@ -1573,21 +1573,21 @@
     "title": "Support",
     "desc": "Om du gillar det här projektet, överväg att donera för att stödja vår utveckling.",
     "hero_title": "Donera till VoiceStudio-projektet",
-    "hero_desc": "VoiceStudio är gratis, öppen källkod och körs helt på din hårdvara. Om det ger värde till ditt arbetsflöde, överväg att stödja kärnteamet.",
+    "hero_desc": "N3xusVoice är gratis, öppen källkod och körs helt på din hårdvara. Om det ger värde till ditt arbetsflöde, överväg att stödja kärnteamet.",
     "github_desc": "Återkommande eller engångsföreteelse — direkt via GitHub.",
     "coffee_desc": "Köp laget en kaffe. Inget konto behövs.",
     "paypal_desc": "Snabb engång eller återkommande via PayPal.",
     "platforms": "Plattformar",
     "footer": "Varje bidrag hjälper till att tänja på gränserna för lokal AI.",
     "back": "Tillbaka till Studio",
-    "pill": "Stöd VoiceStudio",
+    "pill": "Stöd N3xusVoice",
     "suggested_title": "Välj ett belopp",
     "most_common": "vanligaste",
     "custom": "Anpassad",
     "choose_method": "Välj hur du ska ge",
     "choose_method_amount": "Fortsätt med ${{amount}}",
     "goal": {
-      "title": "Stöd utvecklingen av VoiceStudio",
+      "title": "Stöd utvecklingen av N3xusVoice",
       "of": "av",
       "per_month": "/ månad",
       "aria": "{{raised}} av {{goal}} månadsmål",
@@ -1596,7 +1596,7 @@
       "social_proof": "Gå med i {{count}}-supportrar som finansierar lokal AI"
     },
     "postcard": {
-      "title": "Stöd utvecklingen av VoiceStudio",
+      "title": "Stöd utvecklingen av N3xusVoice",
       "later": "Kanske senare"
     }
   },
@@ -1606,11 +1606,11 @@
     "back": "Tillbaka till Studio",
     "badge": "Kommersiell licens",
     "hero_title": "Ship AI-röster i produktion",
-    "hero_desc": "VoiceStudio är fri programvara med öppen källkod under GNU Affero General Public License v3 (AGPL-3.0) — gratis att använda, även för kommersiellt och internt företagsbruk. En kommersiell licens behövs bara om du vill bädda in VoiceStudio i en proprietär produkt eller tjänst med stängd källkod utan AGPL-3.0:s copyleft-skyldigheter. Vår licens omfattar koden i VoiceStudio. Rättigheter till modeller och genererat innehåll beror på de valda modellerna och deras villkor.",
+    "hero_desc": "N3xusVoice är fri programvara med öppen källkod under GNU Affero General Public License v3 (AGPL-3.0) — gratis att använda, även för kommersiellt och internt företagsbruk. En kommersiell licens behövs bara om du vill bädda in N3xusVoice i en proprietär produkt eller tjänst med stängd källkod utan AGPL-3.0:s copyleft-skyldigheter. Vår licens omfattar koden i N3xusVoice. Rättigheter till modeller och genererat innehåll beror på de valda modellerna och deras villkor.",
     "pricing_desc": "Nivåer och prissättning håller fortfarande på att slutföras.",
     "request_quote": "Begär en offert",
     "benefit_ip": "Programlicens",
-    "benefit_ip_desc": "Vår licens omfattar koden i VoiceStudio. Rättigheter till modeller och genererat innehåll beror på de valda modellerna och deras villkor.",
+    "benefit_ip_desc": "Vår licens omfattar koden i N3xusVoice. Rättigheter till modeller och genererat innehåll beror på de valda modellerna och deras villkor.",
     "benefit_cost": "Noll kostnad per minut",
     "benefit_cost_desc": "Inga API-räkningar, inga överraskande överskott. Körs på din egen hårdvara från dag ett.",
     "benefit_team_desc": "En licens täcker obegränsade användare inom din organisation.",
@@ -1618,7 +1618,7 @@
     "benefit_support_desc": "Prioriterad support för e-post och videosamtal från kärnteknikteamet.",
     "benefit_source_desc": "Full insyn i stapeln. Granska, fördela och anpassa inom licensvillkoren.",
     "benefit_lang_desc": "Transkribera, översätt och dubba på 646 språk med kvalitet på mänsklig nivå.",
-    "hero_simple": "VoiceStudio är gratis och öppen källkod enligt AGPL-3.0 – inklusive för kommersiellt och internt affärsbruk. Du behöver bara en kommersiell licens för att bädda in den i en produkt med sluten källkod utan AGPL:s copyleft-skyldigheter. Vår licens omfattar koden i VoiceStudio. Rättigheter till modeller och genererat innehåll beror på de valda modellerna och deras villkor."
+    "hero_simple": "N3xusVoice är gratis och öppen källkod enligt AGPL-3.0 – inklusive för kommersiellt och internt affärsbruk. Du behöver bara en kommersiell licens för att bädda in den i en produkt med sluten källkod utan AGPL:s copyleft-skyldigheter. Vår licens omfattar koden i N3xusVoice. Rättigheter till modeller och genererat innehåll beror på de valda modellerna och deras villkor."
   },
   "exportModal": {
     "export": "Exportera",
@@ -1681,7 +1681,7 @@
     "pkg_audio_body_one": "Hoppa till fliken Ljud för att exportera dubbar per språk i WAV eller MP3 ({{count}} dub tillgänglig).",
     "pkg_audio_body_other": "Hoppa till fliken Ljud för att exportera dubbar per språk i WAV eller MP3 ({{count}} dubbar tillgängliga).",
     "pkg_audio_cta": "Öppna fliken ljud",
-    "license_text": "Vår licens omfattar koden i VoiceStudio. Rättigheter till modeller och genererat innehåll beror på de valda modellerna och deras villkor.",
+    "license_text": "Vår licens omfattar koden i N3xusVoice. Rättigheter till modeller och genererat innehåll beror på de valda modellerna och deras villkor.",
     "license_link": "Programlicens",
     "output": "UTGÅNG",
     "nothing_selected": "Inget valt eller spåret är inte tillgängligt",
@@ -1749,14 +1749,14 @@
     "desc": "Oroa dig inte – resten av appen fungerar fortfarande. Du kan byta flik eller försöka igen nedan.",
     "tryAgain": "Försök igen",
     "openDocs": "Öppna dokument för detta fel",
-    "crash_port_in_use": "Backend kunde inte starta eftersom port 3900 redan används — en annan kopia av VoiceStudio (eller en app som tagit porten) håller den. Avsluta den andra instansen och starta om; om inget syns köra håller en föräldralös backend från en tidigare session fortfarande porten.",
+    "crash_port_in_use": "Backend kunde inte starta eftersom port 3900 redan används — en annan kopia av N3xusVoice (eller en app som tagit porten) håller den. Avsluta den andra instansen och starta om; om inget syns köra håller en föräldralös backend från en tidigare session fortfarande porten.",
     "crash_oom_kill": "Processen tvångsavslutades (signal 9), vilket vanligtvis betyder att operativsystemet fick slut på minne (RAM). Stäng minneskrävande appar, välj en mindre ASR-modell under Inställningar → Modeller, eller ladda ur TTS-modellen före transkribering.",
-    "crash_native_fault": "Kraschen skedde inne i beräkningsstacken snarare än på grund av slut på minne — det pekar på en GPU-drivrutin som inte matchar den medföljande CUDA-körtiden, eller en modellfil som laddats ner ofullständigt. Uppdatera GPU-drivrutinen och ladda sedan ner modellen på nytt under Inställningar → Modeller (en ofullständig nedladdning repareras på plats). Om det fortsätter, byt till en kraschisolerad motor under Inställningar → Motorer — ”VoiceStudio (subprocess)” för syntes, ”Faster-Whisper (crash-isolated subprocess)” för transkribering. De kör modellen i en separat process, så en sådan krasch fäller den processen i stället för hela backend.",
+    "crash_native_fault": "Kraschen skedde inne i beräkningsstacken snarare än på grund av slut på minne — det pekar på en GPU-drivrutin som inte matchar den medföljande CUDA-körtiden, eller en modellfil som laddats ner ofullständigt. Uppdatera GPU-drivrutinen och ladda sedan ner modellen på nytt under Inställningar → Modeller (en ofullständig nedladdning repareras på plats). Om det fortsätter, byt till en kraschisolerad motor under Inställningar → Motorer — ”N3xusVoice (subprocess)” för syntes, ”Faster-Whisper (crash-isolated subprocess)” för transkribering. De kör modellen i en separat process, så en sådan krasch fäller den processen i stället för hela backend.",
     "report": "Rapportera den här buggen",
     "report_failed": "Det gick inte att öppna felrapporten. Försök igen, eller kopiera detaljerna ovan till ett nytt ärende.",
     "searchIssues": "Sök liknande problem",
     "unexpected": "Oväntat fel: {{message}}",
-    "backend_shutting_down": "VoiceStudio stängs av. Öppna appen igen och försök på nytt.",
+    "backend_shutting_down": "N3xusVoice stängs av. Öppna appen igen och försök på nytt.",
     "crash_broken_env": "Den dog när den läste in sina egna Python-beroenden, så det handlar varken om minne eller om din GPU — miljön är ofullständig eller halvuppdaterad. Använd ”Rensa & Försök igen” under Inställningar → Loggar → Backend, som bygger om den från grunden och reparerar den på plats utan att röra dina röster eller projekt. Misslyckas det ändå anger kraschdetaljerna exakt vilket paket som inte gick att importera.",
     "crash_vram_default": "På mindre GPU:er är den vanliga orsaken att VRAM-minnet tar slut när ASR-modellen läses in ovanpå TTS-modellen: ladda ur TTS-modellen först, eller välj en mindre ASR-modell under Modellkatalog → Modeller.",
     "stream_cut_backend_alive": "Strömmen avbröts i förtid, men backend körs fortfarande — den kraschade alltså inte. I en serverad eller containerbaserad miljö beror det oftast på en omvänd proxy eller lastbalanserare som buffrar anslutningen eller bryter den efter en tidsgräns: stäng av svarsbuffring för den här rutten (nginx: proxy_buffering off; X-Accel-Buffering: no) och höj dess tidsgräns för läsning. Att köra skrivbordsappen direkt, eller på localhost utan proxy, bekräftar det.",
@@ -1800,7 +1800,7 @@
     "network": "Nätverk",
     "local": "Lokalt",
     "share_confirm_title": "Dela i ditt nätverk?",
-    "share_confirm_hint": "Andra enheter på ditt Wi-Fi/Ethernet kommer att kunna nå VoiceStudio med den åtkomst-PIN som visas när den är på.",
+    "share_confirm_hint": "Andra enheter på ditt Wi-Fi/Ethernet kommer att kunna nå N3xusVoice med den åtkomst-PIN som visas när den är på.",
     "enabling": "Aktiverar...",
     "enable": "Aktivera",
     "shared_title": "Delas i ditt nätverk",
@@ -2163,8 +2163,8 @@
     "windows_app_control_blocked": "Windows programkontroll blockerade en nödvändig fil. Be administratören tillåta den betrodda VoiceStudio-körmiljön och starta sedan om appen.",
     "audio_io_failed": "Ljudet kunde inte läsas eller sparas. Kontrollera filformat, ledigt diskutrymme och filbehörigheter. Kontrollera mappen under Inställningar → Lagring.",
     "no_audio_track": "Filen saknar ljudspår, så det finns inget tal att transkribera, dubba eller klona. Välj en video- eller ljudfil som innehåller ljud.",
-    "transcription_media_tool": "Transkribering kräver ffmpeg, som VoiceStudio inte kunde hitta eller köra. Öppna Inställningar → Ljudverktyg och använd Ladda ned/Reparera, eller installera ffmpeg (macOS: brew install ffmpeg; Windows: winget install Gyan.FFmpeg; Linux: din pakethanterare) och starta om VoiceStudio. Du kan också peka FFMPEG_PATH mot en ffmpeg-fil.",
-    "transcription_pipe_lost": "Backend förlorade sin utdatakanal till appen under transkriberingen (broken pipe). Starta om VoiceStudio och försök igen."
+    "transcription_media_tool": "Transkribering kräver ffmpeg, som N3xusVoice inte kunde hitta eller köra. Öppna Inställningar → Ljudverktyg och använd Ladda ned/Reparera, eller installera ffmpeg (macOS: brew install ffmpeg; Windows: winget install Gyan.FFmpeg; Linux: din pakethanterare) och starta om N3xusVoice. Du kan också peka FFMPEG_PATH mot en ffmpeg-fil.",
+    "transcription_pipe_lost": "Backend förlorade sin utdatakanal till appen under transkriberingen (broken pipe). Starta om N3xusVoice och försök igen."
   },
   "sharing": {
     "title": "Delning och fjärråtkomst",
@@ -2172,7 +2172,7 @@
     "local_network": "Lokalt nätverk",
     "local_help": "Dela på ditt Wi-Fi / Ethernet med en PIN-kod för engångsåtkomst. Andra enheter skannar QR-koden eller öppna länken.",
     "ports_title": "Hamnar",
-    "ports_help": "Dessa ställs in via miljövariabler som läses vid uppstart. Ändra backend- eller UI-porten genom att ställa in variabeln och starta om VoiceStudio.",
+    "ports_help": "Dessa ställs in via miljövariabler som läses vid uppstart. Ändra backend- eller UI-porten genom att ställa in variabeln och starta om N3xusVoice.",
     "backend_port": "Backend-port",
     "ui_port": "UI-port",
     "lan_share_port": "LAN-delningsport",
@@ -2183,9 +2183,9 @@
     "ports_note": "Backend- och UI-portar gäller vid omstart. LAN-delningsporten gäller nästa gång du aktiverar delning.",
     "tailscale_title": "Tailscale (privat fjärråtkomst)",
     "tailscale_checking": "Söker efter tailscale...",
-    "tailscale_absent": "Svansskala inte upptäckt. Installera den för att nå VoiceStudio säkert från var som helst på ditt privata tailnet.",
+    "tailscale_absent": "Svansskala inte upptäckt. Installera den för att nå N3xusVoice säkert från var som helst på ditt privata tailnet.",
     "tailscale_install": "Installera Tailscale",
-    "tailscale_running": "Tailscale är igång. Servera VoiceStudio över ditt privata tailnet.",
+    "tailscale_running": "Tailscale är igång. Servera N3xusVoice över ditt privata tailnet.",
     "tailscale_not_logged_in": "Tailscale är installerad men inte inloggad. Starta och logga in på Tailscale först.",
     "tailscale_enabled": "Tailscale serve aktiverad",
     "tailscale_enable_failed": "Det gick inte att aktivera Tailscale",
@@ -2207,7 +2207,7 @@
     "label": "Rapportera ett fel",
     "title": "Öppnar en förifylld GitHub-problemsida i din webbläsare. Inget skickas förrän du klickar på Skicka.",
     "staleTitle": "Uppdatering tillgänglig",
-    "staleMessage": "Du använder VoiceStudio {{current}}, men {{latest}} är redan ute — det här felet kan redan vara åtgärdat där. Se den senaste versionen innan du rapporterar?",
+    "staleMessage": "Du använder N3xusVoice {{current}}, men {{latest}} är redan ute — det här felet kan redan vara åtgärdat där. Se den senaste versionen innan du rapporterar?",
     "staleView": "Visa uppdatering",
     "staleFileAnyway": "Rapportera ändå"
   },
@@ -2235,7 +2235,7 @@
     "failed": "Uppdateringen misslyckades",
     "retry": "Försök igen",
     "dismiss": "Avvisa",
-    "toast_available": "VoiceStudio {{version}} är tillgänglig",
+    "toast_available": "N3xusVoice {{version}} är tillgänglig",
     "toast_install": "Installera och starta om",
     "toast_whats_new": "Nyheter",
     "toast_later": "Senare"
@@ -2279,9 +2279,9 @@
     "retry_load": "Försök igen"
   },
   "firstrun": {
-    "backend_stop_failed": "VoiceStudio kunde inte stoppa den tidigare backend-processen säkert. Stäng alla andra VoiceStudio-fönster eller -processer och försök igen.",
+    "backend_stop_failed": "N3xusVoice kunde inte stoppa den tidigare backend-processen säkert. Stäng alla andra VoiceStudio-fönster eller -processer och försök igen.",
     "loading": "Förbereder installationen…",
-    "title": "Konfigurera VoiceStudio",
+    "title": "Konfigurera N3xusVoice",
     "subtitle": "Inget är installerat ännu — granska var allt hamnar och starta sedan. Kan ändras senare i Inställningar.",
     "language": "Språk",
     "mode_title": "Installationsläge",
@@ -2383,7 +2383,7 @@
     "load_config": "Läs in inställningar"
   },
   "openapi": {
-    "title": "VoiceStudio API",
+    "title": "N3xusVoice API",
     "loading": "Läser in API-specifikationen…",
     "unreachable_title": "Backend-specifikationen är inte tillgänglig",
     "unreachable_body": "Det gick inte att nå den lokala backendens OpenAPI-specifikation på {{url}}. Kontrollera att backenden körs och försök igen.",
@@ -2536,7 +2536,7 @@
     "lex_add": "Lägg till ord",
     "lex_remove": "Ta bort",
     "markup_help": "Markeringsreferens",
-    "markup_hint": "# Kapiteltitel · [voice:NAME] byt röst · [pause 500ms] / [pause 1s] · [slow]…[/slow] · [fast]…[/fast] · [emphasis]…[/emphasis] · [spell]…[/spell] · Reaktioner (VoiceStudio): [laughter] [sigh] [confirmation-en] [question-en] [question-ah] [question-oh] [question-ei] [question-yi] [surprise-ah] [surprise-oh] [surprise-wa] [surprise-yo] [dissatisfaction-hnn]",
+    "markup_hint": "# Kapiteltitel · [voice:NAME] byt röst · [pause 500ms] / [pause 1s] · [slow]…[/slow] · [fast]…[/fast] · [emphasis]…[/emphasis] · [spell]…[/spell] · Reaktioner (N3xusVoice): [laughter] [sigh] [confirmation-en] [question-en] [question-ah] [question-oh] [question-ei] [question-yi] [surprise-ah] [surprise-oh] [surprise-wa] [surprise-yo] [dissatisfaction-hnn]",
     "language": "Språk",
     "expressive": "Produktionsåsidosättanden",
     "reset": "Återställ",
@@ -2663,7 +2663,7 @@
   },
   "permissions": {
     "title": "Behörigheter",
-    "desc": "VoiceStudio körs helt på din enhet — dessa systembehörigheter används bara för funktionerna som listas här, och ljud lämnar aldrig din dator.",
+    "desc": "N3xusVoice körs helt på din enhet — dessa systembehörigheter används bara för funktionerna som listas här, och ljud lämnar aldrig din dator.",
     "microphone": "Mikrofon",
     "microphone_why": "Används för diktering och röstinspelning. Ljudet bearbetas lokalt.",
     "accessibility": "Hjälpmedel",
@@ -2703,7 +2703,7 @@
   },
   "crash": {
     "notice_unclean": "Föregående session avslutades utan en ren avstängning för {{ago}} sedan. Det är ofta ofarligt — datorn sov, appen tvångsavslutades eller en VM/container stoppades.",
-    "details_intro_unclean": "Föregående körnings avstängningsmarkör rensades aldrig, för {{ago}} sedan. VoiceStudio kan inte avgöra om det var en krasch eller bara ett avbrott — vila, tvångsavslut eller att stoppa en VM/container lämnar samma spår. Om allt fungerar nu behöver inget göras.",
+    "details_intro_unclean": "Föregående körnings avstängningsmarkör rensades aldrig, för {{ago}} sedan. N3xusVoice kan inte avgöra om det var en krasch eller bara ett avbrott — vila, tvångsavslut eller att stoppa en VM/container lämnar samma spår. Om allt fungerar nu behöver inget göras.",
     "report_needs_log": "Ingen felutdata fångades för denna händelse, så en ett-klicks-rapport vore tom. Om något faktiskt är fel, bifoga de sista raderna från Inställningar → Loggar → Backend i ett nytt ärende."
   },
   "voices": {
@@ -2771,7 +2771,7 @@
     "title": "Integrationer",
     "featured": "Utvald",
     "description": "Upptäck integrationer och utvalda partner.",
-    "n8nHint": "Importera arbetsflödet till n8n, redigera begäran och kör det. Låt VoiceStudio vara igång. Docker och fjärranslutna n8n behöver en nåbar backendadress och eventuella inloggningsuppgifter."
+    "n8nHint": "Importera arbetsflödet till n8n, redigera begäran och kör det. Låt N3xusVoice vara igång. Docker och fjärranslutna n8n behöver en nåbar backendadress och eventuella inloggningsuppgifter."
   },
   "directoryExamples": {
     "example": "Katalogexempel"
