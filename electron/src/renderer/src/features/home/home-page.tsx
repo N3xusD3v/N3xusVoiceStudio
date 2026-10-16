@@ -1,11 +1,9 @@
 import { HomeFeatureIcon } from './home-feature-icon';
-import { HomeContributors } from './home-contributors';
 import './home-page.css';
 import { WorkspaceHeader } from '@/components/app-shell/workspace-header';
 import { ProfileAvatar } from '@/components/profile-avatar';
 import { Button } from '@/components/ui/button';
 import { useProfiles } from '@/hooks/use-profiles';
-import { brandArtwork } from '@/lib/brand';
 import { patchCloneSettings } from '@/lib/store/clone-settings';
 import { selectCloneProfile } from '@/lib/store/reference';
 import { blankLongformDraft, editLongform } from '@/features/longform/longform-session';
@@ -195,17 +193,6 @@ export function HomePage() {
       <div className="min-h-0 flex-1 overflow-y-auto">
         <div className="home-content mx-auto w-full max-w-6xl">
           <section aria-label={t('app.name')}>
-            <div className="home-heading relative isolate overflow-hidden">
-              <img
-                src={brandArtwork}
-                alt=""
-                aria-hidden="true"
-                className="pointer-events-none absolute inset-y-0 right-0 -z-10 h-full w-1/2 object-cover object-right opacity-25 [mask-image:linear-gradient(90deg,transparent,black)]"
-              />
-              <div className="home-heading-row">
-                <HomeContributors />
-              </div>
-            </div>
             {[destinations.slice(0, 3), destinations.slice(3)].map((group, groupIndex) => (
               <div
                 key={groupIndex}
